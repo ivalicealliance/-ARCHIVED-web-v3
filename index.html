@@ -1,5 +1,5 @@
---- 
-layout: default 
+---
+layout: default
 title: Ivalice Alliance
 keywords: ivalice alliance, gaming, community, clan, final fantasy
 description: Information about the community such as mission, leadership, and responsibilities.
@@ -7,32 +7,40 @@ hidden_title: true
 ---
 
 <div class="text-center pal">
-  <img src="{{ site.baseurl }}{% link assets/images/logo.png %}" alt="Ivalice Alliance Logo" style="max-width: 280px; width: 100%;" />
+  <img src="{{ site.baseurl }}{% link assets/images/logo.png %}" alt="Ivalice Alliance Logo"
+    style="max-width: 280px; width: 100%;" />
 </div>
 
 <p>
-  The
-  <strong>
-    <em>Ivalice Alliance</em>
-  </strong> is a Final Fantasy themed community that features a unique character system inspired by
-  the Final Fantasy series. It operates on a Discord server as a community that supports any topics and games that members
-  are interested in.</p>
+  Welcome to the <strong><em>Ivalice Alliance</em></strong> community! We are a group of fans who are passionate about
+  discussing all things interesting and unique, from video
+  games and anime to music and bar culture. Our community is inspired by the iconic Final Fantasy franchise, and as
+  such, we have a character system where members can pick a name from the series as their persona. This adds an extra
+  layer of fun and immersion to our conversations, which extend beyond just Final Fantasy. We enjoy talking about a wide
+  range of other topics as well.
+</p>
+
+<p>
+  Whether you're a fan of the series or just looking for a place to chat about your interests with like-minded people,
+  you'll find a welcoming and inclusive community here at the Ivalice Alliance. We embrace diversity and respect all
+  members, regardless of their background or level of knowledge. So come on in, pick your character, and join the
+  conversation! We can't wait to get to know you and discuss all of our shared interests.
+</p>
 
 <h3 id="mission">
   Mission
 </h3>
-<p>To facilitate a Final Fantasy themed community with honor, integrity, and excellence.</p>
+<p>Our mission is to foster a positive and engaging environment for Final Fantasy enthusiasts, where members can share their love for the franchise and its related media with honor, integrity, and excellence.</p>
 
 <h3 id="leadership">
   Leadership
 </h3>
 <h5>Leaders</h5>
-<p>Responsible for all daily management of the community and for implementing short and long term plans. They shall make fair decisions
-  in the best interest of the community.</p>
+<p>Defining and executing the community vision. They shall make fair decisions in the best interest of the community.</p>
 <div class="grid-container text-center">
   <div class="grid-x grid-margin-x align-center small-up-2 medium-up-4">
     {% for leader in site.data.leadership.leaders %}
-      {% include card_sprite.html character=leader %}
+    {% include card_sprite.html character=leader %}
     {% endfor %}
   </div>
 </div>
@@ -40,8 +48,8 @@ hidden_title: true
 <p>Responsible for the daily operation of the community and provide counsel to Leaders.</p>
 <div class="grid-container text-center">
   <div class="grid-x grid-margin-x align-center small-up-2 medium-up-4">
-    {% for judge in site.data.leadership.judges %} 
-      {% include card_sprite.html character=judge %} 
+    {% for judge in site.data.leadership.judges %}
+    {% include card_sprite.html character=judge %}
     {% endfor %}
   </div>
 </div>
