@@ -9,9 +9,6 @@
   icon: fas fa-users
   link: members.html
 # External 
-- text: Mail
-  icon: fas fa-envelope
-  external: https://webmail.ivalicealliance.net/
 - text: Chat
   icon: fab fa-discord
   external: '!discord'
