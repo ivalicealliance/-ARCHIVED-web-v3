@@ -1,3 +1,9 @@
+# ⚠️ [ARCHIVED] This repository is no longer maintained ⚠️
+
+**IMPORTANT: This repository has been archived and is no longer maintained.**
+
+This project is no longer actively maintained, and its contents are provided for reference purposes only. The code may be outdated or no longer functional, and security vulnerabilities may be present.
+
 # ivalicealliance.github.io
 
 ## Abstract
